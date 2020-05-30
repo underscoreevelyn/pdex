@@ -1,0 +1,9 @@
+name: pdex
+version: "0.1"
+author: Evelyn Krieg <arandompieceofcheese@gmail.com>
+about: CLI Pokedex for Bulbapedia
+args:
+    - target:
+        help: Pokemon to get data about
+        required: true
+        index: 1
